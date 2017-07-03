@@ -1,18 +1,19 @@
 extends layout
 
 block content
-  h1 Timestamp API Microservice
-  h2 unix-timestamp-converter
-  p.red Example Usage
-  code localhost:3000/December 15, 2015
-  br
-  code localhost:3000/1450137600
+  center
+    h1 Timestamp API Microservice
+    h2 unix-timestamp-converter
+    p.red Example Usage in browser URL
+    code localhost:3000/December 15, 2015
+    br
+    code localhost:3000/1450137600
 
-  p.red Expected Output in JSON
-  code { "unix": 1450137600, "natural": "December 15, 2015" }
+    p.red Expected Output in JSON
+    code { "unix": 1450137600, "natural": "December 15, 2015" }
 
-  br
+    br
 
-  p.credit Created by Nicholas Rohrer
-  br
-  a https://github.com/NicholasRohrer/unix-timestamp-converter
+    p.credit Created by Nicholas Rohrer
+    br
+    a(href="https://github.com/NicholasRohrer/unix-timestamp-converter") https://github.com/NicholasRohrer/unix-timestamp-converter
